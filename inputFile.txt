@@ -1,0 +1,49 @@
+Layer 3
+numCoreSw 2
+numPOD 3
+numSwPOD 4
+numHost 12
+Controller 9
+
+0 18 24
+1 19 25
+2 20 24
+3 21 25
+4 22 24
+5 23 25
+6 12 18
+7 12 19
+8 13 18
+9 13 19
+10 14 20
+11 14 21
+12 15 20
+13 15 21
+14 16 22
+15 16 23
+16 17 22
+17 17 23
+18 0 12
+19 1 12
+20 2 13
+21 3 13
+22 4 14
+23 5 14
+24 6 15
+25 7 15
+26 8 16
+27 9 16
+28 10 17
+29 11 17
+
+
+**********************explain for 3-layer topology*********************
+ the 1st line is the layer of topology
+ the 2nd line is the number of core switches
+ the 3rd line is the number of PODs
+ the 4th line is the number of switches in each POD
+ the 5rd line is the number of hosts
+ the 6th line is the id of host which will install the controller server
+ the 7th line is empty
+ the following lines describe the links on the network(id, src, dst)
+***********************************************************************
